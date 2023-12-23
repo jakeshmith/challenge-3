@@ -7,8 +7,8 @@ var specChar = "!@#$%^&*()_-+={[}]:;'<,>.?/~`"
 var findLength;
 var findUpperCase;
 var findLowerCase;
-var findNumbers;
 var findSpecial;
+var findNumbers;
 
 
 function determineLength(){
@@ -20,13 +20,13 @@ function determineLength(){
     alert("Password length must be between 8 and 128 characters long");
     findLength;
   } else {
-    alert("Way to go! What characters would you like to use?")
+    alert("Niiiiice! What characters would you like to use?")
   }
   return findLength;
 }
 
   function  determineUppercase(){
-    findUpperCase = prompt("Do you want uppercase letters in your password? \(Yes or No)");
+    findUpperCase = prompt("We thinkin' uppercase? \(Yes or No)");
       findUpperCase = findUpperCase.toLowerCase();
 
       if (findUpperCase === null || findUpperCase === ""){
@@ -49,7 +49,7 @@ function determineLength(){
     }
 
     function  determineLowercase(){
-      findLowerCase = prompt("Do you want lowercase letters in your password? \(Yes or No)");
+      findLowerCase = prompt("How's about lowercase? \(Yes or No)");
         findLowerCase = findLowerCase.toLowerCase();
  
   
