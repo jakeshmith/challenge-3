@@ -1,4 +1,3 @@
-// Assignment Code
 var generateBtn = document.querySelector("#generate");
 var charNumb = "0123456789";
 var charLower = "abcdefghijklmnopqrstuvwxyz"
